@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.body {
+    font-family: "Open Sans", sans-serif;
+}
+
+ul li a {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    /*font-weight: 700;*/
+    /*line-height: 26.4px;*/
+}
+
+.input-field {
+    padding: 5px;
+}
+
+/* table {
+    border-radius: 10px 10px 10px 10px;
+} */
+
+table thead tr {
+    background-color: #388E3C;
+    color: white;
+    align-items: center;
+}
+
+
+/*h1 {*/
+    /*font-family: "Varela Round";*/
+    /*font-size: 24px;*/
+    /*font-style: normal;*/
+    /*font-variant: normal;*/
+    /*font-weight: 700;*/
+    /*line-height: 26.4px;*/
+/*}*/
+
+/*h3 {*/
+    /*font-family: "Varela Round";*/
+    /*font-size: 14px;*/
+    /*font-style: normal;*/
+    /*font-variant: normal;*/
+    /*font-weight: 700;*/
+    /*line-height: 15.4px;*/
+/*}*/
+
+/*p {*/
+    /*font-family: "Varela Round";*/
+    /*font-size: 14px;*/
+    /*font-style: normal;*/
+    /*font-variant: normal;*/
+    /*font-weight: 400;*/
+    /*line-height: 20px;*/
+/*}*/
+
+/*blockquote {*/
+    /*font-family: "Varela Round";*/
+    /*font-size: 21px;*/
+    /*font-style: normal;*/
+    /*font-variant: normal;*/
+    /*font-weight: 400;*/
+    /*line-height: 30px;*/
+/*}*/
+
+/*pre {*/
+    /*font-family: "Varela Round";*/
+    /*font-size: 13px;*/
+    /*font-style: normal;*/
+    /*font-variant: normal;*/
+    /*font-weight: 400;*/
+    /*line-height: 18.5714px;*/
+/*}*/

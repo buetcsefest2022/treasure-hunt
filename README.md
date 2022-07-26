@@ -1,9 +1,29 @@
-# BUET CSE Fest 2022: Treasure Hunt Website
-This project was forked from github.com/ajoydas/CSEFest2019. A few changes were made here and there to modify according to our need.
+# Screenshots of the Treasure Hunt Website
 
-## Project Stack
-- Django
-- Materialize Library
+# UI
+<img src="../screenshots/hunt/hunt1.png" width=350>
+&nbsp
+<img src="../screenshots/hunt/hunt2.png" width=350>
+&nbsp
+<img src="../screenshots/hunt/hunt3.png" width=350>
+&nbsp
+<img src="../screenshots/hunt/hunt4.png" width=350>
+&nbsp
 
-## Getting Started
-It's a good practice to clone the repo in your PC and create a virtualenv, and then installing the Python3 packages.
+# Admin Panel
+<img src="../screenshots/hunt/hunt5.png" width=700>
+&nbsp
+<img src="../screenshots/hunt/hunt6.png" width=700>
+&nbsp
+<img src="../screenshots/hunt/hunt7.png" width=700>
+&nbsp
+<img src="../screenshots/hunt/hunt8.png" width=700>
+&nbsp
+<img src="../screenshots/hunt/hunt9.png" width=700>
+&nbsp
+<img src="../screenshots/hunt/hunt10.png" width=700>
+&nbsp
+<img src="../screenshots/hunt/hunt11.png" width=700>
+&nbsp
+<img src="../screenshots/hunt/hunt12.png" width=700>
+&nbsp
