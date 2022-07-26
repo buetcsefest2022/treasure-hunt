@@ -138,3 +138,8 @@ db.json
 # Media Files
 media/
 media/**
+
+staticfiles/
+staticfiles/**
+**/staticfiles/
+**/staticfiles/**
