@@ -11,21 +11,33 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
-from decouple import config
+from pathlib import Path
+
+
+# Constants
+# ===========================
+SERVER = False
+DEBUG = True
+# ===========================
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
+
+dot_env_path = os.path.join(BASE_DIR, '.env')
+if os.path.isfile(dot_env_path):
+	from dotenv import load_dotenv
+	load_dotenv(dot_env_path)
+
+
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = "kivabsos_5ecr37k3y_k1_h01b0_#palamama"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', cast=bool)
-
 ALLOWED_HOSTS = ['*']
 
 
@@ -81,15 +93,15 @@ WSGI_APPLICATION = 'treasure_hunt.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-if config('SERVER', cast=bool) is True:
+if SERVER is True:
     DATABASES = {
         'default': {
             'ENGINE': 'mysql.connector.django',
-            'NAME': config('DB_NAME'),
-            'USER': config('DB_USER'),
-            'PASSWORD': config('DB_PASS'),
-            'HOST': config('DB_HOST'),
-            'PORT': config('DB_PORT'),
+            'NAME': os.getenv('DB_NAME'),
+            'USER': os.getenv('DB_USER'),
+            'PASSWORD': os.getenv('DB_PASS'),
+            'HOST': os.getenv('DB_HOST'),
+            'PORT': os.getenv('DB_PORT'),
         }
     }
 

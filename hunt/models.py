@@ -24,6 +24,7 @@ class Puzzle(models.Model):
         verbose_name_plural = "(Add) Puzzles"
 
     serial_no = models.IntegerField(unique=True, blank=False)
+    description = models.TextField(blank=True, default="")
     pdf = models.FileField(upload_to=user_directory_path, null=True)
     answer = models.CharField(max_length=100)
 

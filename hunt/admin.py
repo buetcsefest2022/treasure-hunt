@@ -5,7 +5,7 @@ from hunt.models import Puzzle, PuzzleStatus, TeamTask, TeamTaskStatus, Tries
 
 
 class GameAdmin(admin.ModelAdmin):
-    fields = ('serial_no','pdf','answer')
+    fields = ('serial_no', 'description', 'pdf','answer')
 
 admin.site.register(Puzzle, GameAdmin)
 

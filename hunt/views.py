@@ -80,6 +80,7 @@ def hunt(request):
             step = 2
             return render(request, 'hunt_front_end/puzzle.html', {
                 'step': step,
+                'description': current_task.description,
                 'file': current_task.pdf.url
             })
 
